@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-hystrix-dashboard-turbine" />
+        <module name="springcloud-ribbon-consumer" />
+        <module name="springcloud-ribbon-consumer3" />
+        <module name="springcloud-ribbon-consumer2" />
+        <module name="springcloud-hystrix-consumer" />
+        <module name="springcloud-feign-eureka" />
+        <module name="springcloud-feign-consumer2" />
+        <module name="springboot-eureka-server" />
+        <module name="springcloud-hystrix-eureka" />
+        <module name="springcloud-zuul-filter-eureka" />
+        <module name="springcloud-hystrix-consumer2" />
+        <module name="springcloud-zuul-eureka" />
+        <module name="springcloud-ribbon-eureka" />
+        <module name="springcloud-config-eureka" />
+        <module name="springboot-eureka-client" />
+        <module name="springcloud-config-bus-eureka" />
+        <module name="springcloud-config-bus-client2" />
+        <module name="springcloud-config-server" />
+        <module name="springcloud-config-bus-server" />
+        <module name="springcloud-zuul-filter-gateway" />
+        <module name="springcloud-hystrix-dashboard-consumer" />
+        <module name="springcloud-feign-consumer" />
+        <module name="springcloud-config-client" />
+        <module name="springcloud-hystrix-dashboard-consumer2" />
+        <module name="springcloud-zuul-gateway" />
+        <module name="springcloud-hystrix-dashboard-eureka" />
+        <module name="springcloud-config-bus-client" />
+        <module name="springcloud-zuul-filter-server2" />
+        <module name="springcloud-zuul-filter-server1" />
+        <module name="springcloud-zuul-server2" />
+        <module name="springcloud-zuul-server1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-eureka-client" target="1.8" />
+      <module name="springboot-eureka-server" target="1.8" />
+      <module name="springcloud-config" target="1.8" />
+      <module name="springcloud-config-bus" target="1.8" />
+      <module name="springcloud-config-bus-client" target="1.8" />
+      <module name="springcloud-config-bus-client2" target="1.8" />
+      <module name="springcloud-config-bus-eureka" target="1.8" />
+      <module name="springcloud-config-bus-server" target="1.8" />
+      <module name="springcloud-config-client" target="1.8" />
+      <module name="springcloud-config-eureka" target="1.8" />
+      <module name="springcloud-config-server" target="1.8" />
+      <module name="springcloud-eureka" target="1.8" />
+      <module name="springcloud-feign" target="1.8" />
+      <module name="springcloud-feign-consumer" target="1.8" />
+      <module name="springcloud-feign-consumer2" target="1.8" />
+      <module name="springcloud-feign-eureka" target="1.8" />
+      <module name="springcloud-hystrix" target="1.8" />
+      <module name="springcloud-hystrix-consumer" target="1.8" />
+      <module name="springcloud-hystrix-consumer2" target="1.8" />
+      <module name="springcloud-hystrix-dashboard" target="1.8" />
+      <module name="springcloud-hystrix-dashboard-consumer" target="1.8" />
+      <module name="springcloud-hystrix-dashboard-consumer2" target="1.8" />
+      <module name="springcloud-hystrix-dashboard-eureka" target="1.8" />
+      <module name="springcloud-hystrix-dashboard-turbine" target="1.8" />
+      <module name="springcloud-hystrix-eureka" target="1.8" />
+      <module name="springcloud-ribbon" target="1.8" />
+      <module name="springcloud-ribbon-consumer" target="1.8" />
+      <module name="springcloud-ribbon-consumer2" target="1.8" />
+      <module name="springcloud-ribbon-consumer3" target="1.8" />
+      <module name="springcloud-ribbon-eureka" target="1.8" />
+      <module name="springcloud-zuul" target="1.8" />
+      <module name="springcloud-zuul-eureka" target="1.8" />
+      <module name="springcloud-zuul-filter" target="1.8" />
+      <module name="springcloud-zuul-filter-eureka" target="1.8" />
+      <module name="springcloud-zuul-filter-gateway" target="1.8" />
+      <module name="springcloud-zuul-filter-server1" target="1.8" />
+      <module name="springcloud-zuul-filter-server2" target="1.8" />
+      <module name="springcloud-zuul-gateway" target="1.8" />
+      <module name="springcloud-zuul-server1" target="1.8" />
+      <module name="springcloud-zuul-server2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-eureka-client" options="-parameters" />
+      <module name="springboot-eureka-server" options="-parameters" />
+      <module name="springcloud-config-bus-client" options="-parameters" />
+      <module name="springcloud-config-bus-client2" options="-parameters" />
+      <module name="springcloud-config-bus-eureka" options="-parameters" />
+      <module name="springcloud-config-bus-server" options="-parameters" />
+      <module name="springcloud-config-client" options="-parameters" />
+      <module name="springcloud-config-eureka" options="-parameters" />
+      <module name="springcloud-config-server" options="-parameters" />
+      <module name="springcloud-feign-consumer" options="-parameters" />
+      <module name="springcloud-feign-consumer2" options="-parameters" />
+      <module name="springcloud-feign-eureka" options="-parameters" />
+      <module name="springcloud-hystrix-consumer" options="-parameters" />
+      <module name="springcloud-hystrix-consumer2" options="-parameters" />
+      <module name="springcloud-hystrix-dashboard-consumer" options="-parameters" />
+      <module name="springcloud-hystrix-dashboard-consumer2" options="-parameters" />
+      <module name="springcloud-hystrix-dashboard-eureka" options="-parameters" />
+      <module name="springcloud-hystrix-dashboard-turbine" options="-parameters" />
+      <module name="springcloud-hystrix-eureka" options="-parameters" />
+      <module name="springcloud-ribbon-consumer" options="-parameters" />
+      <module name="springcloud-ribbon-consumer2" options="-parameters" />
+      <module name="springcloud-ribbon-consumer3" options="-parameters" />
+      <module name="springcloud-ribbon-eureka" options="-parameters" />
+      <module name="springcloud-zuul-eureka" options="-parameters" />
+      <module name="springcloud-zuul-filter-eureka" options="-parameters" />
+      <module name="springcloud-zuul-filter-gateway" options="-parameters" />
+      <module name="springcloud-zuul-filter-server1" options="-parameters" />
+      <module name="springcloud-zuul-filter-server2" options="-parameters" />
+      <module name="springcloud-zuul-gateway" options="-parameters" />
+      <module name="springcloud-zuul-server1" options="-parameters" />
+      <module name="springcloud-zuul-server2" options="-parameters" />
+    </option>
+  </component>
+</project>
