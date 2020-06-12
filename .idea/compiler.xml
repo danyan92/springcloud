@@ -33,6 +33,7 @@
         <module name="springcloud-zuul-gateway" />
         <module name="springcloud-hystrix-dashboard-eureka" />
         <module name="springcloud-config-bus-client" />
+        <module name="springcloud-consul" />
         <module name="springcloud-zuul-filter-server2" />
         <module name="springcloud-zuul-filter-server1" />
         <module name="springcloud-zuul-server2" />
@@ -51,6 +52,7 @@
       <module name="springcloud-config-client" target="1.8" />
       <module name="springcloud-config-eureka" target="1.8" />
       <module name="springcloud-config-server" target="1.8" />
+      <module name="springcloud-consul" target="1.8" />
       <module name="springcloud-eureka" target="1.8" />
       <module name="springcloud-feign" target="1.8" />
       <module name="springcloud-feign-consumer" target="1.8" />
@@ -93,6 +95,7 @@
       <module name="springcloud-config-client" options="-parameters" />
       <module name="springcloud-config-eureka" options="-parameters" />
       <module name="springcloud-config-server" options="-parameters" />
+      <module name="springcloud-consul" options="-parameters" />
       <module name="springcloud-feign-consumer" options="-parameters" />
       <module name="springcloud-feign-consumer2" options="-parameters" />
       <module name="springcloud-feign-eureka" options="-parameters" />

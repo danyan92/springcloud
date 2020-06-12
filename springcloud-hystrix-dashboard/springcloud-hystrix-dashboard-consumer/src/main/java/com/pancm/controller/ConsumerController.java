@@ -8,28 +8,24 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pancm.remote.HelloRemote;
 
 
-
-
-
 /**
- * 
-* @Title: ConsumerController
-* @Description: 
-* @Version:1.0.0  
-* @author pancm
-* @date 2018年3月29日
+ * @author pancm
+ * @Title: ConsumerController
+ * @Description:
+ * @Version:1.0.0
+ * @date 2018年3月29日
  */
 @RestController
 public class ConsumerController {
 
-	@Autowired
+    @Autowired
     HelloRemote helloRemote;
-	
+
     @RequestMapping("/hello/{name}")
     public String index(@PathVariable("name") String name) {
-    	System.out.println("接受到请求参数:"+name);
+        System.out.println("接受到请求参数:" + name);
         return helloRemote.hello(name);
     }
 
-    
+
 }

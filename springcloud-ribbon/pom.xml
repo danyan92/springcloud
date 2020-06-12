@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>1.0.0</groupId>
-  <artifactId>springcloud-ribbon</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <groupId>1.0.0</groupId>
+    <artifactId>springcloud-ribbon</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-  <name>springcloud-ribbon</name>
-  <url>http://maven.apache.org</url>
-  <description>springcloud ribbon demo</description>
+    <name>springcloud-ribbon</name>
+    <url>http://maven.apache.org</url>
+    <description>springcloud ribbon demo</description>
 
-  	<parent>
+    <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.1.RELEASE</version>
@@ -19,10 +20,10 @@
     </parent>
 
     <modules>
-    	 <module>springcloud-ribbon-eureka</module>
-  		 <module>springcloud-ribbon-consumer</module>
-   		 <module>springcloud-ribbon-consumer2</module>
-   		 <module>springcloud-ribbon-consumer3</module>
+        <module>springcloud-ribbon-eureka</module>
+        <module>springcloud-ribbon-consumer</module>
+        <module>springcloud-ribbon-consumer2</module>
+        <module>springcloud-ribbon-consumer3</module>
     </modules>
 
     <properties>
@@ -32,14 +33,14 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
 
-    <dependencies> 
+    <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        
-        
+
+
     </dependencies>
 
     <dependencyManagement>
@@ -62,5 +63,5 @@
             </plugin>
         </plugins>
     </build>
-    
+
 </project>

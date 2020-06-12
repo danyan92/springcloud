@@ -8,22 +8,22 @@ import org.springframework.stereotype.Component;
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 
 /**
-* @Title: HystrixServlet
-* @Description: 初始化Hystrix的bean
-* @Version:1.0.0  
-* @author pancm
-* @date 2018年12月24日
-*/
+ * @author pancm
+ * @Title: HystrixServlet
+ * @Description: 初始化Hystrix的bean
+ * @Version:1.0.0
+ * @date 2018年12月24日
+ */
 @Component
-public class HystrixServlet extends Servlet{
+public class HystrixServlet extends Servlet {
 
-	
-	
-	/**
-	 *  指定 hystrix 的路径
-	 * @return
-	 */
-	@SuppressWarnings({ "rawtypes", "unchecked" })
+
+    /**
+     * 指定 hystrix 的路径
+     *
+     * @return
+     */
+    @SuppressWarnings({"rawtypes", "unchecked"})
 //	@Bean
     public ServletRegistrationBean getServlet() {
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
@@ -33,5 +33,5 @@ public class HystrixServlet extends Servlet{
         registrationBean.setName("HystrixMetricsStreamServlet");
         return registrationBean;
     }
-	
+
 }
